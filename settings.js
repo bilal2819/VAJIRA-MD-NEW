@@ -38,7 +38,7 @@ MATHS_AI: process.env.MATHS_AI || true  ,
 WELCOME: process.env.WELCOME || true  ,    
 LOGO: process.env.LOGO || `https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/640px-A_black_image.jpg` ,
 COMMAND_TYPE: process.env.COMMAND_TYPE || 'button' ,    
-ANTI_DELETE : process.env.ANTI_DELETE || false ,
+ANTI_DELETE : process.env.ANTI_DELETE || true ,
 DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '' : process.env.DELETEMSGSENDTO        
     
 };
